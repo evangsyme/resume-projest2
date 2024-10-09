@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+    padding: 0px; 
+    font-family: "Libre Baskerville", serif;
+    font-style: normal;
+    
+}
+   
+
+.profil-img {
+    border-radius: 100%;
+    max-width: 200px;
+    margin-bottom: 50px;
+}
+.container-hero {
+    color: aliceblue;
+    display: flex;
+    flex-basis: 100px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#hero-section {
+    background-color: rgb(133, 187, 248);
+    min-height: 100vh;
+    padding: 40px;
+}
+
+
+#hero-par {
+    max-width: 500px;
+
+}
+
+.hero-child {
+    text-align: justify;
+   
+}
+.hero-header {
+    text-align: center;
+}
+
+.basic-section {
+    min-height: 100vh;
+    padding: 50px 25px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(233, 236, 239);
+    border-radius: 100%;
+    flex-grow: 0;
+}
+.basic-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.text {
+    width: 60%;
+    min-width: 250px;
+    padding: 25px;
+    background-color: rgb(233, 236, 239);
+    border-radius: 20px;
+}
+.text p {
+    text-align: justify;
+}
+
+#contact-me {
+    background-color:  rgb(133, 187, 248);
+    color: aliceblue;
+    height: 30vh;
+    padding: 20px;
+    margin: 0px;
+}
+
+.footer-tag {
+    font-weight: bold;
+}
+
+.footer-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-list {
+    list-style-type: none;
+}
